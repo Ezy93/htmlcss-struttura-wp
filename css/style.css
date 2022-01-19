@@ -4,9 +4,19 @@
     padding: 0;
 }
 
+footer{
+    float: left;
+    background-color: #8801fe ;
+    margin-top: 10px;
+    /* roba da tolgiere */
+    height: 50px;
+    width: 100%;
+
+}
+
 .container{
     width: 80%;
-    height: 500px;
+    height: 50px;
     margin: 0 auto;
     
     
@@ -29,12 +39,46 @@
 
 .jambotron{
     background-color: #e1d67a ;
+    float: left;
     /* elementi da eliminare */
     height: 50px;
     width: 100%;
-    float: right;
 }
 
 .gutter-top{
     margin-top: 20px;
 }
+
+.main-content{
+    background-color: #0087ff;
+    float: left;
+    /* elementi da togliere */
+    height: 500px;
+    width: 100%;
+}
+
+.main-center{
+    background-color: #abcfe7 ;
+    float: left;
+    width: calc(40% - 10px);
+    height: calc(80% - 10px);
+    margin: 10px;
+    
+}
+
+.main-side{
+    background-color: #abcfe7;
+    float: right;
+    width: calc(20% - 10px);
+    height: calc(80% - 10px);
+}
+
+#h-main{
+    background-color: #abcfe7 ;
+    width: 100%;
+    height: calc(20% - 10px);
+    float: left;
+}
+    
+
+

@@ -3,3 +3,38 @@
     margin: 0;
     padding: 0;
 }
+
+.container{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-menu{
+    float: left;
+    background-color: #e579e6;
+    /* elementi da eliminare */
+    width: 100%;
+    height: 50px;
+}
+
+.jambotron{
+    background-color: #e1d67a ;
+    /* elementi da eliminare */
+    height: 50px;
+    width: 100%;
+    float: right;
+}
+
+.gutter-top{
+    margin-top: 20px;
+}

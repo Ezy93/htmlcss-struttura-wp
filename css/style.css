@@ -62,7 +62,6 @@ footer{
 .main-side{
     width: calc(20% - 20px) ;
     height: calc(80% - 20px);
-    margin-top: 20px;
 }
 
 .back-content{
